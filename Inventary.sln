@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventary", "Inventary\Inventary.csproj", "{7A3DA507-2D5C-4C26-8C80-5D5B43C979AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{9662A6D2-50DF-439B-B6BC-B0D9072519C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{80E87714-ECE7-4466-BAF0-9E2D26C9DAA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A3DA507-2D5C-4C26-8C80-5D5B43C979AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3DA507-2D5C-4C26-8C80-5D5B43C979AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3DA507-2D5C-4C26-8C80-5D5B43C979AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3DA507-2D5C-4C26-8C80-5D5B43C979AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9662A6D2-50DF-439B-B6BC-B0D9072519C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9662A6D2-50DF-439B-B6BC-B0D9072519C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9662A6D2-50DF-439B-B6BC-B0D9072519C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9662A6D2-50DF-439B-B6BC-B0D9072519C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E87714-ECE7-4466-BAF0-9E2D26C9DAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E87714-ECE7-4466-BAF0-9E2D26C9DAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E87714-ECE7-4466-BAF0-9E2D26C9DAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E87714-ECE7-4466-BAF0-9E2D26C9DAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EFB148E-FAB7-4A9E-B94A-DC6C2C2C4FC5}
+	EndGlobalSection
+EndGlobal
