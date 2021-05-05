@@ -1,0 +1,15 @@
+﻿@using Entities
+@using Business
+
+<div>
+    <EditForm Model="oInOut">
+        <div class="form-control">
+            <label>Referencia:</label>
+            <InputText @bind-Value="oInOut.InOutId" class="form-control"/>
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    InputOutputEntity oInOut = new InputOutputEntity();
+}
