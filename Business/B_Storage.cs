@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using DataAccess;
 using Entities;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Business
@@ -37,7 +38,19 @@ namespace Business
             }
         }
 
-        public void UpdateStorage(StorageEntity uStorage)
+        public static List<StorageEntity> StorageProductsByWareHouse(string idWareHouse)
+        {
+            using (var db = new InventaryContext())
+            {
+                return db.Storages
+                    .Include(s=>s.Product)
+                    .Include(s=>s.WareHouse)
+                    .Where(s=>s.WareHouseId==idWareHouse)
+                    .ToList();
+            }
+        }
+
+        public static void UpdateStorage(StorageEntity uStorage)
         {
             using (var db = new InventaryContext())
             {
